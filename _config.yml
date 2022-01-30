@@ -1,4 +1,5 @@
 timezone: Europe/Rome
 baseurl: /time
+title: Time
 permalink: pretty
 remote_theme: giovian/ui@main

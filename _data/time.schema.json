@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "time",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "date": {
+        "type": "string",
+        "format": "date"
+      },
+      "category": {
+        "type": "string"
+      },
+      "details": {
+        "type": "string"
+      },
+      "value": {
+        "type": "number"
+      },
+      "duration": {
+        "type": "string",
+        "format": "duration"
+      }
+    }
+  }
+}

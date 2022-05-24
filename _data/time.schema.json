@@ -8,20 +8,24 @@
       "date": {
         "type": "string",
         "format": "date",
-        "default": "today"
+        "default": "today",
+        "autocomplete": "off"
       },
       "category": {
-        "type": "string"
+        "type": "string",
+        "autocomplete": "on"
       },
       "details": {
-        "type": "string"
+        "type": "string",
+        "autocomplete": "on"
       },
       "value": {
         "type": "number"
       },
       "duration": {
         "type": "string",
-        "format": "duration"
+        "format": "duration",
+        "autocomplete": "off"
       }
     }
   }
